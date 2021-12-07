@@ -1,5 +1,5 @@
 function B() {
-    alert("Test Javascript Import & Export")
+    console.log("Test Javascript Import & Export")
 }
 
 export default B;
