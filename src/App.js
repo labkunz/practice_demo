@@ -3,6 +3,8 @@ import './App.css';
 import testImportExport from './testImportExport';
 import {A, C} from './testIEforObject';
 import ToDoList from './ToDoList';
+import CSSbyJS from './CSSbyJavascript';
+import CSSbySC from './CSSbyStyleComponents';
 
 function MyImg() {
   return ( <img src={logo} className="App-logo" alt="logo" /> )
@@ -61,6 +63,14 @@ function App() {
   } else if (window.location.pathname === "/toDoList") {
     return (
       <ToDoList />
+    )
+  } else if (window.location.pathname === "/cSSbyJS") {
+    return (
+      <CSSbyJS />
+    )
+  } else if (window.location.pathname === "/cSSbySC") {
+    return (
+      <CSSbySC />
     )
   }
   
